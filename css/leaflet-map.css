@@ -1,0 +1,89 @@
+/* Search box */
+
+input.map-search-field                  					{margin-right:5px; width:250px; font-size:14px; line-height:20px}
+.map-search-results                     					{display:none; margin:1em 0; padding:10px; background-color:#fff; border:1px solid #e1e1e1}
+.map-search-results .loading            					{display:block; margin:0 auto}
+.map-search-results p                   					{margin:0 0 1em; font-weight:bold}
+.map-search-results ul                  					{margin:0; padding:0 5px 0 20px; line-height:1.7em; list-style:disc}
+.map-search-results a                   					{display:block}
+
+/* Map */
+
+.vif-leaflet-map-wrap                    					{position:relative}
+.vif-leaflet-map                         					{height:400px}
+.map-center-here                        					{position:absolute; top:9px; right:9px; z-index:9999}
+
+/* Markers */
+
+.leaflet-popup-content .map-popup-marker-title 				{margin:0; font-size:16px; line-height:22px; font-weight:bold}
+.leaflet-popup-content .map-popup-marker-title a 			{font-size:12px; font-weight:normal}
+.leaflet-popup-content .map-popup-marker-content-text,
+.leaflet-popup-content .map-popup-marker-content-image,
+.leaflet-popup-content .map-popup-marker-content-video,
+.leaflet-popup-content .map-popup-marker-content-audio 		{margin:.5em 0}
+.leaflet-popup-content .map-popup-marker-content-text 		{font-size:14px; line-height:21px}
+.leaflet-popup-content .map-popup-marker-content-image 		{min-height:150px}
+.leaflet-popup-content .map-popup-marker-content-image img 	{display:block; max-width:100% !important; height:auto}
+.map-popup-marker-content-video .fluid-width-video-wrapper  {margin-bottom:0} /* Fix fitVids() default margin */
+
+.leaflet-popup-content .map-popup-marker-more 				{margin:0}
+.leaflet-popup-content .map-popup-marker-more a 			{float:right; padding:4px 7px; font-size:12px; line-height:12px; font-weight:300; text-transform:uppercase}
+.leaflet-popup-content .map-popup-marker-more a:link,
+.leaflet-popup-content .map-popup-marker-more a:visited  	{background-color:#86A2C2; color:#fff}
+.leaflet-popup-content .map-popup-marker-more a:hover,
+.leaflet-popup-content .map-popup-marker-more a:active,
+.leaflet-popup-content .map-popup-marker-more a:focus 		{background-color:#39526E}
+
+/* Markers Index */
+
+.vif-leaflet-map-container 									{position:relative}
+.vif-map-actions-toggles a 									{display:block; font-size:14px; line-height:14px}
+.vif-map-markers-index-toggle 								{padding:16px 16px 16px 60px}
+.vif-map-export-map-toggle 									{padding:16px 16px 16px 60px}
+
+.vif-map-markers-index-toggle:link,
+.vif-map-markers-index-toggle:visited 						{background:#39526E url(../images/sprite.png) -457px 14px no-repeat; color:#fff}
+.vif-map-markers-index-toggle:hover,
+.vif-map-markers-index-toggle:active,
+.vif-map-markers-index-toggle:focus,
+.vif-map-markers-index-toggle.active  						{background-color:#86A2C2; color:#fff}
+
+.vif-map-export-map-toggle:link,
+.vif-map-export-map-toggle:visited 	 						{background:#39526E url(../images/sprite.png) -462px -42px no-repeat; color:#fff}
+.vif-map-export-map-toggle:hover,
+.vif-map-export-map-toggle:active,
+.vif-map-export-map-toggle:focus,
+.vif-map-export-map-toggle.active  							{background-color:#86A2C2; color:#fff}
+
+.vif-map-markers-index 										{display:none}
+.vif-map-markers-index ul 									{margin:0; padding:15px 10px 0; list-style:none; background-color:#f1f1f1; border-bottom:1px solid #dbdbdb}
+.vif-map-marker 			 									{padding:0 0 15px}
+.vif-map-marker a											{display:block}
+.vif-map-marker-icon 										{float:left; margin:0; width:40px}
+.vif-map-marker-icon img 									{display:block; margin:0 auto; max-width:40px; max-height:50px}
+.vif-map-marker-title 										{float:right; margin:0 0 0 -40px; width:100%; font-size:14px; line-height:21px}
+.vif-map-marker-title span 									{display:block; margin-left:40px; padding-left:10px}
+
+.vif-map-export 												{display:none; padding:16px; background-color:#39526E; color:#fff}
+.vif-map-export h3 											{margin:0; font-size:18px}
+.vif-map-export p 											{padding:0 10px}
+.vif-map-export label										{display:block; padding-bottom:5px; font-size:14px}
+.vif-map-export input,
+.vif-map-export textarea 									{color:#888}
+.vif-map-export-code 										{margin-bottom:8px}
+#vif-map-export-height 										{width:100px}
+#vif-map-export-code 										{width:100%; height:80px; font-size:12px}
+
+/* Utils */
+
+.vif-clearfix:before,
+.vif-clearfix:after {
+    content: " ";
+    display: table;
+}
+.vif-clearfix:after {
+    clear: both;
+}
+.vif-clearfix {
+    *zoom: 1;
+}
